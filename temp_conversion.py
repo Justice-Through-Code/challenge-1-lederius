@@ -44,3 +44,10 @@ def hotter_temp():
     print('30.2 degrees celsius')
 hotter_temp()
 
+def cel_to_far(deg: int):
+    temp = (deg - 32) * (5/9)
+    print(f'{deg} celsius to fahrenheit is {temp}')
+
+def far_to_cel(deg: int):
+    temp = (deg * (9/5) + 32)
+    print(f'{deg} fahrenheit to celsius is {temp}')
